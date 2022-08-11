@@ -5,13 +5,18 @@
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "esModuleInterop": true,
-    "noUnusedLocals": true,
+    "noUnusedLocals": false,
     "noImplicitAny": true,
     "declarationDir": "dist/types",
     "declaration": true,
     "target": "esnext",
     "module": "esnext",
-    "strict": true
+    "allowUnusedLabels": true,
+    "moduleResolution": "node",
+    "lib": [
+      "dom",
+      "es6"
+    ]
   },
   "include": [
     "src/**/*"
